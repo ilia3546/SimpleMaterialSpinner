@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SimpleMaterialSpinner_Example' do
+  pod 'SimpleMaterialSpinner', :path => '../'
+
+  target 'SimpleMaterialSpinner_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
