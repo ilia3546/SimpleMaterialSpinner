@@ -8,35 +8,20 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleMaterialSpinner'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of SimpleMaterialSpinner.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
+  s.version          = '0.8'
+  s.summary          = "Simple loader like Google's Material loader."
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+SimpleMaterialSpinner is a beautiful and simple loader that mimicks Google's Material loader.
                        DESC
 
-  s.homepage         = 'https://github.com/ilia3546@me.com/SimpleMaterialSpinner'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+  s.homepage         = 'https://github.com/ilia3546/SimpleMaterialSpinner'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'ilia3546@me.com' => 'ilia3546@me.com' }
-  s.source           = { :git => 'https://github.com/ilia3546@me.com/SimpleMaterialSpinner.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'Ilya Kharlamov' => 'ilia3546@me.com' }
+  s.source           = { :git => 'https://github.com/ilia3546/SimpleMaterialSpinner.git', :tag => s.version.to_s }
 
+  s.swift_version = '4.0'
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'SimpleMaterialSpinner/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'SimpleMaterialSpinner' => ['SimpleMaterialSpinner/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

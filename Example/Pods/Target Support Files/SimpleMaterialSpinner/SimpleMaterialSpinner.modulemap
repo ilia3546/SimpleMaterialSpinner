@@ -1,0 +1,6 @@
+framework module SimpleMaterialSpinner {
+  umbrella header "SimpleMaterialSpinner-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,16 @@
+PODS:
+  - SimpleMaterialSpinner (0.1.0)
+
+DEPENDENCIES:
+  - SimpleMaterialSpinner (from `../`)
+
+EXTERNAL SOURCES:
+  SimpleMaterialSpinner:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SimpleMaterialSpinner: 08a8f543ebec0a4f11a0311f235d53aaf15e1aa3
+
+PODFILE CHECKSUM: 830a0487617b4ffdb494a9b5cae0e1427c349a6c
+
+COCOAPODS: 1.5.2
