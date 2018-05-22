@@ -1,4 +1,4 @@
-# SimpleMaterialSpinner <img align="left" height=50 src="https://github.com/ilia3546/assets/blob/master/SimpleMaterialSpinner/project-icon.png">
+# SimpleMaterialSpinner <img align="left" height=50 src="https://github.com/ilia3546/SimpleMaterialSpinner/raw/assets/project-icon.gif">
 SimpleMaterialSpinner is a beautiful and simple loader that mimicks Google's Material loader.
 
 [![Language](https://img.shields.io/badge/Swift-4-orange.svg)]()
