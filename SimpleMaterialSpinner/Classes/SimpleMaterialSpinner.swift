@@ -26,7 +26,7 @@ public class SimpleMaterialSpinner: UIView {
     public var isAnimating = false
     
     // MARK: - Initializers
-    override init(frame: CGRect) {
+    public override init(frame: CGRect) {
         super.init(frame: frame)
         addViews()
     }
@@ -39,7 +39,7 @@ public class SimpleMaterialSpinner: UIView {
         
         shapeLayer = CAShapeLayer()
         shapeLayer.fillColor = UIColor.clear.cgColor
-        shapeLayer.lineCap = kCALineJoinRound;
+        shapeLayer.lineCap = .round;
         shapeLayer.isHidden = true;
         
         contentView.layer.insertSublayer(shapeLayer, at: 0)

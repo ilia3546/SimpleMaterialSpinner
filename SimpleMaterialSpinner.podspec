@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SimpleMaterialSpinner'
-  s.version          = '0.8'
+  s.version          = '0.9'
   s.summary          = "Simple loader like Google's Material loader."
   s.description      = <<-DESC
 SimpleMaterialSpinner is a beautiful and simple loader that mimicks Google's Material loader.
